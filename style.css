@@ -1,0 +1,60 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speak {
+  width: 600px;
+  float: left;
+  height: 40px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.speak input {
+  text-align: center;
+  width: 400px;
+  height: 38px;
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+
+.speak input:hover {
+  box-shadow: 5px 5px 5px 5px pink;
+}
+
+#Speech_to_text {
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+#btn{
+  border: 2px solid orangered;
+  border-radius: 25px;
+  padding: 15px;
+  width: 300px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#btn:hover{
+  background-color: chocolate;
+  border: 2px solid orange;
+}
+
+#button_css{
+  display: flex;
+  justify-content: center;
+}

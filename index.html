@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech Recognition web application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="Speech_to_text">
+      <h1>Speech to text Conversion :</h1>
+    </div>
+    <div class="main">
+      <div class="speak">
+        <input
+          type="text"
+          id="speechToText"
+          placeholder=" Click me and Speak Something :"
+          onclick="record()"
+        />
+      </div>
+    </div>
+
+      <div id="button_css">
+        <button id="btn">  Submit( Send data to the sever ) </button>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
